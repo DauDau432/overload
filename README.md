@@ -17,14 +17,11 @@
 
 <h2>Windows</h2> <img src="https://cdn.iconscout.com/icon/free/png-256/windows-221-1175066.png" width="50" height="50">  
 
-  - Instala Python 3.8 [aqui](https://www.python.org/downloads/release/python-38)
-  - Abre o installer e clica em: `add python to PATH`
-  - Faz download do overload <a href="https://github.com/7zx/overload/archive/refs/heads/main.zip" target="blank">aqui</a>
-  - Abre o cmd ou o PowerShell no diretório overload
-  - Execute este comando: `pip install -r requirements.txt`  
-
-
- 
+  - Cài đặt Python 3.8 [tại đây](https://www.python.org/downloads/release/python-38)
+  - Mở trình cài đặt và nhấp vào: `add python to PATH`
+  - Tải xuống quá tải <a href="https://github.com/7zx/overload/archive/refs/heads/main.zip" target="blank">tại đây</a>
+  - Mở cmd hoặc PowerShell trong thư mục quá tải
+  - Chạy lệnh này: `pip install -r requirements.txt`  
 
  <h2>Linux</h2><img src="https://raw.githubusercontent.com/8fn/overload/main/img/linux-icon-28166.png" width="50" height="50">
 
@@ -46,14 +43,14 @@ cd overload/
 pip3 install -r requirements.txt
 ```
 
-## ❓ Como Usar
-O comando básico para poder executar o overload é o seguinte.  
+## ❓ Cách sử dụng
+Lệnh cơ bản để chạy quá tải như sau.  
 
 ```
 python3 overload.py --time XXX --threads XXX --target [URL] --method HTTP
 ```
 
-Exemplo:  
+Thí dụ: 
 
 ```
 python3 overload.py --time 5000 --threads 550 --target https://www.publico.pt/ --method HTTP
