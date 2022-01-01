@@ -53,5 +53,5 @@ python3 overload.py --time XXX --threads XXX --target [URL] --method HTTP
 Thí dụ: 
 
 ```
-python3 overload.py --time 5000 --threads 550 --target https://www.publico.pt/ --method HTTP
+python3 overload.py --time 5000 --threads 10000 --target https://www.publico.pt/ --method HTTP
 ```
