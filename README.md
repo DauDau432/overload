@@ -19,7 +19,7 @@
 
   - Cài đặt Python 3.8 [tại đây](https://www.python.org/downloads/release/python-38)
   - Mở trình cài đặt và nhấp vào: `add python to PATH`
-  - Tải xuống quá tải <a href="https://github.com/7zx/overload/archive/refs/heads/main.zip" target="blank">tại đây</a>
+  - Tải xuống overload <a href="https://github.com/7zx/overload/archive/refs/heads/main.zip" target="blank">tại đây</a>
   - Mở cmd hoặc PowerShell trong thư mục quá tải
   - Chạy lệnh này: `pip install -r requirements.txt`  
 
@@ -44,7 +44,7 @@ pip3 install -r requirements.txt
 ```
 
 ## ❓ Cách sử dụng
-Lệnh cơ bản để chạy quá tải như sau.  
+Lệnh cơ bản để chạy overload như sau.  
 
 ```
 python3 overload.py --time XXX --threads XXX --target [URL] --method HTTP
